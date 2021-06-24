@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tipasos</title>
+</head>
+<link rel="stylesheet" href="tipasosweb.css">
+<body>
+
+   
+
+
+    
+    <header>
+        <div class="inicio">
+            <table class="menu">
+    <tr>
+                <th><h3><a href="#sobrenosotros">Sobre nosotros</a></h3></th>
+                <th><h3><a href="#articulos">Artículos</a></h3></th>
+                <th><h3><a href="#fotos">Carrusel de fotos</a></h3></th>
+                <th><h3><a href="#redes">Redes Sociales</a></h3></th>
+                </tr>
+    </table>
+    </div>
+    </header>
+
+    <h1 class="titulo"><em>
+    <br> Hola,
+    <br> Somos Tipasos</em></h1>
+
+<p class="imagentip"><img src="tipasos.png" alt="TIPASOS" ></p> 
+
+    <main>
+<!--DESCRIPCIÓN-->
+
+<h3 id="sobrenosotros"><p><strong><em> Sobre nosotros</em></strong></p></h3>
+
+<p>
+    Somos un grupo de tipazos, que mostramos hacks (“tips”) para la vida cotidiana referido a la cocina. Abarcamos desde tips para cocinar, para hacer las compras de manera correcta y formas de guardado útiles para los tiempos de hoy en día. 
+
+</p>
+<br>
+<br>
+
+<p><strong><em>Nuestro objetivo</em></strong></p>
+
+<p>Brindar tips, y herramientas para que todas las personas que vivan solas/os o con algún acompañante, que no les gusta cocinar, no tienen la habilidad, nunca saben qué hacerse se animen a probar  y aprender cosas nuevas. También ofreceremos tips sobre el orden y la limpieza dentro de la cocina. Les va a ser útil en su día a día!
+</p>
+<br>
+<br>
+<br>
+<br>
+
+<!--ARTÍCULOS-->
+
+<h3 id="articulos"><p><strong><em> Artículos</em></strong></p></h3>
+
+<div class="proyectos">
+
+    <div class="colortexto"><a title="Tuppers" href="https://docs.google.com/document/d/1S1mMe6A8J42zvHHcAA6blUdPpGu00a0bVRAlNzElUB8/edit"><img class="img1" src="Tuppers.png" alt="Tuppers" /></a></div>
+    <div class="colortexto"><a title="Infusiones" href="https://docs.google.com/document/d/1M96EXXvEDDpIJ7N34LLCPIqP5utiHJnAGWDCh2Nms74/edit"><img class="img1" src="infusiones.jpg" alt="Infusiones" /></a></div>
+    <div class="colortexto"><a title="Cocina" href="https://docs.google.com/document/d/16BSKPUAYev7f5VCvZADtzLTcvT9K-RNEuXeqUiA3P3A/edit"><img class="img1" src="cocina.jpg" alt="Cocina" /></a></div>
+    <div class="colortexto"><a title="Tragos" href="https://docs.google.com/document/d/1JYacDos5hGEjoExn5xGA8AosFOxgT2MA4duhXZvayE0/edit"><img class="img1" src="tragos.png" alt="Tragos" /></a></div>
+    <div class="colortexto"><a title="Infaltable" href="https://docs.google.com/document/d/13QhRX6r_n_BCZaYfpimrvAwaSt8dnHUFMV0TlNSf9HU/edit"><img class="img1" src="infaltable.jpg" alt="Infaltable" /></a></div>
+    <div class="colortexto"><a title="Hacks" href="https://docs.google.com/document/d/1MOihqV8P1hGQKFgQFFelybipoi2C0xsklOIFduqCRyg/edit"><img class="img1" src="hacks.jpg" alt="Hacks" /></a></div>
+
+</div>
+
+    </main>
+<br>
+<br>
+<br>
+<!--CARRUSEL DE FOTOS-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3 id="fotos"><p><strong><em> Carrusel de fotos by TIPASOS</em></strong></p></h3>
+
+<!--PONER FOTOS DE CARRUSEL Y BUSCAR EL CÓDIGO-->
+<style>
+    .slide {
+        position: relative;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+        margin-top: 26px;
+    }
+
+    .slide-inner {
+        position: center;
+        overflow: hidden;
+        width: 50%;
+        height: calc( 300px + 1em);
+    }
+
+    .slide-open:checked + .slide-item {
+        position: static;
+        opacity: 100;
+    }
+
+    .slide-item {
+        position: absolute;
+        opacity: 0;
+        -webkit-transition: opacity 0.6s ease-out;
+        transition: opacity 0.6s ease-out;
+    }
+
+    .slide-item img {
+        display: flex;
+        height: 500px;
+        width: 100%;
+    }
+
+    .slide-control {
+        background: rgba(0, 0, 0, 0.28);
+        border-radius: 50%;
+        color: #fff;
+        cursor: pointer;
+        display: none;
+        font-size: 40px;
+        height: 40px;
+        line-height: 35px;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(0, -50%);
+        cursor: pointer;
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        text-align: center;
+        width: 40px;
+        z-index: 10;
+    }
+
+    .slide-control.prev {
+        left: 2%;
+    }
+
+    .slide-control.next {
+        right: 2%;
+    }
+
+    .slide-control:hover {
+        background: rgba(0, 0, 0, 0.8);
+        color: #aaaaaa;
+    }
+
+    #slide-1:checked ~ .control-1,
+    #slide-2:checked ~ .control-2,
+    #slide-3:checked ~ .control-3 {
+        display: block;
+    }
+
+    .slide-indicador {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 2%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .slide-indicador li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    .slide-circulo {
+        color: #828282;
+        cursor: pointer;
+        display: block;
+        font-size: 35px;
+    }
+
+    .slide-circulo:hover {
+        color: #aaaaaa;
+    }
+
+    #slide-1:checked ~ .control-1 ~ .slide-indicador li:nth-child(1) .slide-circulo,
+    #slide-2:checked ~ .control-2 ~ .slide-indicador li:nth-child(2) .slide-circulo,
+    #slide-3:checked ~ .control-3 ~ .slide-indicador li:nth-child(3) .slide-circulo {
+        color: #428bca;
+    }
+
+    #titulo {
+        width: 50%;
+        position:absolute;
+        padding: 0px;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 27px;
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Open Sans', sans-serif;
+        z-index: 9999;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+    }
+</style>
+</head>
+<body>
+<div class="slide">
+    <div class="slide-inner">
+        <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+        <div class="slide-item">
+            <img src="1- portada.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="5.jpg">
+        </div>
+        <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+        <div class="slide-item">
+            <img src="IMG_6629.JPG">
+        </div>
+        <label for="slide-3" class="slide-control prev control-1">‹</label>
+        <label for="slide-2" class="slide-control next control-1">›</label>
+        <label for="slide-1" class="slide-control prev control-2">‹</label>
+        <label for="slide-3" class="slide-control next control-2">›</label>
+        <label for="slide-2" class="slide-control prev control-3">‹</label>
+        <label for="slide-1" class="slide-control next control-3">›</label>
+        <ol class="slide-indicador">
+            <li>
+                <label for="slide-1" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-2" class="slide-circulo">•</label>
+            </li>
+            <li>
+                <label for="slide-3" class="slide-circulo">•</label>
+            </li>
+        </ol>
+    </div>
+</div>
+
+  <!--CARRUSEL-->
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+<br>
+<br>
+<br>
+<b>
+    <br>
+
+
+
+<h3 id="redes"><p><strong><em> Redes Sociales</em></strong></p></h3>
+
+<div class="proyectos1">
+
+    <div class="colortexto"><a title="Instagram" href="https://www.instagram.com/tipasos/"><img class="img1" src="instalogo.png" alt="Infaltable" /></a></div>
+    <div class="colortexto"><a title="Gmail" href="https://workspace.google.com/intl/es-419/products/gmail/?utm_source=google&utm_medium=cpc&utm_campaign=latam-AR-all-es-dr-skws-all-all-trial-e-dr-1009897-LUAC0011865&utm_content=text-ad-none-any-DEV_c-CRE_471087538708-ADGP_Hybrid%20%7C%20BKWS%20-%20MIX%20%7C%20Txt%20~%20Gmail-KWID_43700057701729742-kwd-329871267&utm_term=KW_gmail-ST_gmail&gclid=CjwKCAjw8cCGBhB6EiwAgOReyw5MJmhfRNwZtU93fk0INj5rRC4kcqq4ueSGFPX-LrXGy6rkOYpuKRoC7oUQAvD_BwE&gclsrc=aw.ds"><img class="img1" src="gmaillogo.png" alt="Hacks" /></a></div>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="enviar.php" method="POST" enctype="multipart/form-data">
+	<fieldset>
+	<legend>Contactanos</legend>
+	<label for="nombreyapellido">Nombre y apellido</label>
+    <br>
+<input type="text" name="nombreyapellido" maxlength="30">
+<br>
+<br>
+<textarea>Envianos tu tipaso ;)</textarea>
+<br>
+<br>
+<input type="submit" name="submit" value="Enviar">
+<br>
+<br>
+<input type="reset" name="reset" value=" Limpiar">
+</fieldset>
+</form>
+
+<!--FONDO DE ESTRELLAS-->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+/*BODY*/
+
+body{
+    background-image: linear-gradient(#FFA540, #FFC656, #41D467);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.titulo{ text-align: center;
+    text-shadow: 0 0 3px whitesmoke;
+}
+
+/*FLEXBOX*/
+
+.proyectos{display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 10px;
+
+}
+
+.proyectos > div{
+    background: #f7ab1f;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+
+}
+
+/*CONTENEDOR DE MENSAJES*/
+fieldset{
+	text-align: center;}
+
+legend{
+	text-align: center;}
+
+input{
+	align-content: center;}
+
+legend{
+	align-content: center;
+border-radius: 20px;}
+
+/*carrusel*/
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+ul.slider {
+    position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px;
+    border:2px solid red;
+    background:#fff;
+}
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+    position:relative;
+    top:200px;
+    left:50px;
+}
+
+/*===== TABLAS =====*/
+
+table{
+    border-radius: 25px;
+    padding: 5px;
+    width: 1200px;
+    height: 5px;
+  }
+  
+  table.menu{
+      size: 14xp;}
+  
+  table.menu{
+      text-align: center;}
+
+
+/*IMAGENES*/
+
+img.img1{
+    width:150px;
+    height:150px;
+}
+
+.imagentip{
+    text-align: center;
+}
+
+/*ÚLTIMO*/
+
+.proyectos1{display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 10px;
+
+}
+
+.proyectos1 > div{
+    background: #64d081;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+
+}
